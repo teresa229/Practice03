@@ -10,16 +10,14 @@ public class Ex16 {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		int i;
+		int sum;
 		
-		System.out.println("5의 배수의 개수 "+ num/5);
-//		System.out.println("5의 배수의 합" + num);  //합이 어떻게 되냐?
+		System.out.println("5의 배수의 개수: "+ num/5);
 		
-		for(i<num) {
-			if(i%5==0) {
-				System.out.println();
-			}
-		}
+		
+		System.out.println("5의 배수의 합" + sum);  //합이 어떻게 되냐?
+				}
 		
 	}
 
-}
+//}

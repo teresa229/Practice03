@@ -10,12 +10,12 @@ public class Ex07 {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		
-		int i = 0;
-		
-		while(i<num) {
-			for(i=1; i<num; i++){
-					System.out.println(i);
-				}
+
+		for(int x=1; x<=num; x++){
+			for(int y=1; y<x; y++) {
+				System.out.print(y);
+			}
+			System.out.println("");
 		}
 		
 		sc.close();

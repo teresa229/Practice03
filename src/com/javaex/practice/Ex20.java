@@ -34,13 +34,12 @@ public static void main(String[] args) {
 				}
 				}
 			System.out.print("게임을 종료하시겠습니까?(y/n) ");
-/*
-			if (y) {
+
+/*			code.equals("y")
 				System.out.println("========================");
 				System.out.println("     [숫자맞추기게임 종료]     ");
 				System.out.println("========================");
-			}else {
-			}
+			
 */	}
 
 }
