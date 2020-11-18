@@ -7,19 +7,17 @@ public class Ex17 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+		int x;
 		
 		System.out.println("숫자를 입력하세요: ");
 		int num = sc.nextInt();
-		int x;
-		int y;
-				
-		for(x = 0; x<=num; x++) {
-			for(y = 1; y<num; y++) {
-				y = num-x;
-				System.out.print("*"+y);
+	
+		for(x=num; x>0; x--) {
+			for(int y=x; y>0; y--) {
+			System.out.print("*");
 			}
-		}System.out.println("");
-
+		System.out.println("");
+		}
 		sc.close();
 	}
 	

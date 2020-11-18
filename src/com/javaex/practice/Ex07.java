@@ -12,8 +12,8 @@ public class Ex07 {
 		
 
 		for(int x=1; x<=num; x++){
-			for(int y=1; y<x; y++) {
-				System.out.print(y);
+			for(int y=0; y<x; y++) {
+				System.out.print(x);
 			}
 			System.out.println("");
 		}
