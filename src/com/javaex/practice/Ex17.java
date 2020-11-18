@@ -15,6 +15,7 @@ public class Ex17 {
 					System.out.print("*");
 			}System.out.println("");
 			}
+			
 		sc.close();
 	}
 	

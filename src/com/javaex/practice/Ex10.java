@@ -8,19 +8,19 @@ public class Ex10 {
 		
 		System.out.println("숫자를 입력하세요");
 		Scanner sc = new Scanner(System.in);
-		System.out.println("숫자: ");
+		System.out.print("숫자: ");
 		int num01 = sc.nextInt();
 
-		System.out.println("숫자: ");
+		System.out.print("숫자: ");
 		int num02 = sc.nextInt();
 		
-		System.out.println("숫자: ");
+		System.out.print("숫자: ");
 		int num03 = sc.nextInt();
 		
-		System.out.println("숫자: ");
+		System.out.print("숫자: ");
 		int num04 = sc.nextInt();
 		
-		System.out.println("숫자: ");
+		System.out.print("숫자: ");
 		int num05 = sc.nextInt();
 		
 		if(num01 > num02 ) {
@@ -34,7 +34,8 @@ public class Ex10 {
 			System.out.println(num05);
 		}else {}
 
-	
+	//	System.out.println("최대값은 "+ num05 + "입니다.");
+		
 	sc.close();
 	}
 }
