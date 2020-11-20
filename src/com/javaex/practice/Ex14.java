@@ -1,8 +1,8 @@
-package com.javaex.practice;
+package com.javaex.practice;   //해결 안됨 // 맨+를 어떻게 없애지?
 
 import java.util.Scanner;
 
-public class Ex14 { //해결 안됨 // 맨+를 어떻게 없애지?
+public class Ex14 { 
 	
 	public static void main(String[] args) {
 		

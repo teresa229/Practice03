@@ -1,4 +1,4 @@
-package com.javaex.practice;
+package com.javaex.practice; //팩토리얼공식  n!= 1×2 ×3× ⋯ ×n
 
 import java.util.Scanner;
 
@@ -18,5 +18,6 @@ public class Ex12 {
 		
 		System.out.println("결과값: "+ sum);
 		
+		sc.close();
 	}
 }

@@ -10,18 +10,22 @@ public class Ex18 {
 		
 		System.out.print("숫자를 입력하셔요: ");
 		int num = sc.nextInt();
-		
-		for(int y=1; y<num; y++) {
-			for(int x=1; x<=y; x++) {
+	
+		for(int i= num; i>0; i--) {
+			for(int j=i ; j>0; j--) {
 				System.out.print("*");
-		}System.out.println("");
+			}
+		System.out.println("");
 		}
 		
+		for(int i= 2; i<=num; i++) {
+			for(int j=0 ; j<i; j++) {
+				System.out.print("*");
+			}
+		System.out.println("");
+		}
 		
-		
-		
-	//	System.out.println("");
-		
+		sc.close();
 	}
 
 }
