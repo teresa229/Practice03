@@ -1,4 +1,4 @@
-package com.javaex.practice;   //해결 안됨 // 맨+를 어떻게 없애지?
+package com.javaex.practice;   
 
 import java.util.Scanner;
 
@@ -6,20 +6,21 @@ public class Ex14 {
 	
 	public static void main(String[] args) {
 		
-		System.out.print("숫자를 입력하세요: ");
-		Scanner sc = new Scanner(System.in);
-		int num = sc.nextInt();
+		int inputNum;
 		int sum= 0;
-
+		Scanner sc = new Scanner(System.in);
 		
-		for(int i=1; i<=num; i++) {
-			//	System.out.print(i);
-			//	System.out.print("+");
+		System.out.print("숫자를 입력하세요: ");
+		inputNum = sc.nextInt();
+		
+		for(int i=1; i<=inputNum; i++) {
 				sum = sum + i;
-				System.out.print("+"+i);
+				if(i==inputNum) {
+					System.out.println(i);
+				}else {
+					System.out.print(i+"+");
+				}
 		}
-		System.out.println("");
 		System.out.println("합계: " + sum);
-		}
-		
 	}
+}
